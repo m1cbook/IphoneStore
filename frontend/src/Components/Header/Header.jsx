@@ -7,19 +7,19 @@ const Header = () => {
                     <nav className="nav">
                         <ul className="menu">
                             <li className="menu-item">  
-                                <a class="menu-item" href="#">What is new</a>
+                                <a className="menu-item" href="/">What is new</a>
                             </li>
                             <li className="menu-item">
-                                <a class="menu-item" href="#">Color</a>
+                                <a className="menu-item" href="/">Color</a>
                             </li>
                             <li className="menu-item">
-                                <a class="menu-item" href="#">Order</a>
+                                <a className="menu-item" href="/">Order</a>
                             </li>
                             </ul>
-                        <a className="logo">
-                            <img class="logo-img" src={logo} alt="logo" />
+                        <a className="logo" href="/">
+                            <img className="logo-img" src={logo} alt="logo" />
                         </a>
-                        <a class="phone" href="tel:380731841610">+38 073-184-16-10</a>
+                        <a className="phone" href="tel:380731841610">+38 073-184-16-10</a>
                     </nav>
                 </div>
             </header>
